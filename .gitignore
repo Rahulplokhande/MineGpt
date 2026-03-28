@@ -1,1 +1,12 @@
 node_modules
+.env
+backend/.env
+Frontend/.env
+backend/node_modules
+Frontend/node_modules
+dist
+build
+Frontend/dist
+backend/uploads
+.vscode
+.DS_Store
