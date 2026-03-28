@@ -30,3 +30,8 @@ const connectDB = async () => {
     console.log("Failed to connect with DB", err);
   }
 };
+
+
+app.get("/", (req, res) => {
+  res.send("MineGpt backend is live 🚀");
+});
